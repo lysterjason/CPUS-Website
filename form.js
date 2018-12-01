@@ -21,8 +21,7 @@ var config = {
       "ucid": ucid
     });
   };
-  
+
   (window).load(function () {
     ("#signUp").submit(registerMember);
-  
   });
