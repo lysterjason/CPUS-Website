@@ -1,27 +1,103 @@
 body { 
-  background: url(assets/background.jpg) no-repeat center center fixed; 
+  font-family: 'Lato', sans-serif;
+}
+
+#clubText { 
+  font-size: 16px; 
+  padding: 0 2em 1em 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+ }
+
+.container-fluid { 
+  height: 100%;
+  width: 100%;
+}
+
+.page-title { 
+  color: black; 
+  padding: 2em; 
+  text-transform: uppercase;
+}
+
+#main {
+  position: relative;
+  padding-top: 100px;
+  background: url(assets/background.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} 
+
+#AboutClub { 
+  background: #F2F2F2 no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative; 
+  height: 100%;
 }
 
-#main {
-  position: absolute;
-  top: 30%;
-  transform: translateY(-30%);
-  margin-left: 50px;
+#AboutUs { 
+  /* background: rgb(190, 190, 190) no-repeat center center fixed;  
+  background: whitesmoke no-repeat center fixed; */
+  background: white no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative; 
+  height: 200%;
 }
 
 #title {
   color: white; 
   font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#formTitle {
-  margin-bottom: 20px;
-  font-size: 50px;
+.subtitle { 
+  color: rgb(250, 250, 250);
+  opacity: 0.85;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
 }
+
+#signUpForm {
+  color: black;
+  width: 500px;
+  position: relative;
+  /*top: 50%;
+  transform: translateY(-50%);*/
+}
+
+#signUp { 
+  background: #F2F2F2 no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative; 
+  height: 100%;
+}
+
+/*
+  NO NAV BAR AS OF NOW
+
+.navbar-text { 
+  color: black; 
+}
+
+.navbar-brand { 
+  color: black !important;
+  font-size: 24px;
+}
+*/
 
 a {
   color: white;
@@ -39,17 +115,23 @@ a:hover {
 button {
   background-color: transparent;
   margin-top: 30px !important;
+  border: 1px solid; 
 }
 
 .btn-group {
   margin-top: 40px;
 }
 
-#signUp {
-  color: white;
-  width: 500px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.card-body { 
+  color: black; 
 }
 
+.card { 
+  border-radius: 5% 5% 0 0;
+  height: 760px;
+  width: 285px;
+}
+
+.card-img-top { 
+  border-radius: 5% 5% 0 0;
+}
